@@ -18,7 +18,9 @@ const server = http.createServer((req, res) => {
     res.end(getOsInfo());
 });
 
-server.listen(3000, () => {
-    console.log('Server is running on port', server.address().port);
+const port = process.env.PORT || 3000;
+
+server.listen(port, () => {
+    console.log('Server is running on port', server.address().port, "got to", );
 });
 

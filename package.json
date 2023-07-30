@@ -1,0 +1,19 @@
+{
+  "name": "http-aws",
+  "version": "1.0.0",
+  "description": "Simple server for try aws EC2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahelsantiago/http-aws.git"
+  },
+  "author": "Jahel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahelsantiago/http-aws/issues"
+  },
+  "homepage": "https://github.com/jahelsantiago/http-aws#readme"
+}
